@@ -50,6 +50,14 @@ npm run build
 npm run lint
 ```
 
+## Deploy to GitHub Pages
+
+The `main` branch is deployed automatically by GitHub Actions. After the first successful deployment, the site is available at:
+
+<https://harshdixit9987-sys.github.io/My-NASA-project/>
+
+If GitHub Pages is not enabled for the repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**. To enable Firebase sign-in on the deployed site, add the `VITE_FIREBASE_*` values from `.env.example` as repository Actions variables and add `harshdixit9987-sys.github.io` to Firebase Authentication's authorized domains.
+
 ## Project structure
 
 ```text
